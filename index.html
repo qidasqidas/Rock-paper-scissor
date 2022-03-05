@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+  
+</head>
+<body>
+
+<div class="container">
+    <center>
+    <h1 class="text-white">Rock paper scissor</h1>
+    <br>
+    <div class="flex">
+        <span class=""><h1 class="bx text-white">  You</h1></span>
+        <span class=""><h1 class="bx text-white">  Comp</h1></span>
+    </div>
+<div class="flex">
+    
+    <span class="r-img"><h1 id="ys"class=" bx">0</h1></span>
+<span class="r-img"><h1 id="cs"class="  bx">0</h1></span>
+</div>
+<br>
+
+<span class="flex">
+    <span onclick="r()"><div><img class="r1-img"src="rock.png" alt=""></div></span>
+<span onclick="p()"><div><img class="r1-img"src="paper.png" alt=""></div></span>
+<span onclick="s()"><div><img class="r1-img"src="scissor.png" alt=""></div></span>
+</span>
+<p class="text-white"id="yoc"></p>
+<br>
+<p class="text-white" id="db"></p>
+<br>
+<span><a href="#" class="btn-white">Restart</a></span>
+<br>
+</center>
+</body>
+</div>
+<audio id="l"src="lose.mp3"></audio>
+<audio id="w"src="win.mp3"></audio>
+<audio src="draw.mp3" id="d"></audio>
+</html>
