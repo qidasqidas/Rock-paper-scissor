@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    font-family: 'Fredoka', sans-serif;
+}
+.btn-white{
+    padding:15px;
+background-color: white;
+color: black;
+border-radius: 20px;
+text-decoration: none;
+font-size: 20px;
+border: 0px;
+}
+.btn-black{
+    padding:15px;
+background-color: black;
+color: white;
+border-radius: 20px;
+text-decoration: none;
+font-size: 20px;
+border: 0px;
+}
+body{
+    background-color: black;
+}
+.r-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color:white;
+color: black;
+margin-left: 10px;
+}
+.text-white{
+    color:white;
+}
+.lia{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.lia :hover{
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 20px;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+#input{
+    text-align: center;
+    width:400px;
+height: 30px;
+border-radius: 5px;
+}
+.r1-img{
+    border-radius: 100vh;
+width:50px;
+height: 50px;
+background-color: white;
+color: black;
+margin: 10px;
+}
+.beech{
+    padding-top: 0.9em;
+    color: black;
+}
+.flex{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.bx{
+    margin: 0.5em;
+}
+.b{
+    width: 200px;
+    height: 200px;
+}
+.bigb{
+    width:100vh;
+    height: 60vh;
+}
+.b-black{
+    background-color: black;
+}
+.b-white{
+    background-color: white;
+}
+.b-radius{
+    border-radius:20px;
+}
+.mt-ce{
+    margin-top:7em;
+}
